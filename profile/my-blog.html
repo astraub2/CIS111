@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('../images/amber-bg.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="../images/amber.jpg">
+    <h1>Amber's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Welcome to My blog!</h2>
+    <p>Hello! Welcome. This is a simple blog I created for my CIS coding class. As for me, I am a CIS major who 
+      is enjoying myself. I know you, reader, are most likely bored grading at this point, but thank you for glancing at my work anyway.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Still Scrolling?</h2>
+    <p>How about some interesting facts? You cannot lick your elbow. You also canot blink with your tongue sticking out. You tried it, didn't you. Great job. You're exceptional. Too bad this skill will get you nowhere.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>And Again with the Title Part</h2>
+    <p>I seriosly considered posting images of shaved guiea pigs here, but instead I will tell you about my hobbies. I am a musician,
+      I play the violin and viola, and I sing. Probably too much. My roomates bought ear plugs. I collect dolls, and spend way to much time online. Hence the pictures of shaved guinea pigs. Seriosly, go look them up. They look like little hippos.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>

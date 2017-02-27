@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title> Greetings!</title>
+</head>
+<body>
+	<h2>Welcome</h2>
+	<script>
+	var a=prompt("Enter length of section a");
+	var b=prompt("Enter length of section b");
+	var c=prompt("Enter length of section c");
+	var d=((a+b+c)/2);
+	var x=(d*(a-d)*(b-d)*(c-d));
+	var area=Math.sqrt(x);
+
+	alert("The area of your triangle is: "+area);
+	</script>
+	</body>
+</html>

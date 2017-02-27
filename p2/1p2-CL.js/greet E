@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<title> Greetings!</title>
+</head>
+<body>
+	<h2>Welcome</h2>
+	<script>
+	var firstname=prompt("Hello! Please enter your first name:");
+	var lastname=prompt("Please enter your last name:");
+	alert("To italicize your name, use "+"<i>"+firstname+" "+lastname+"</i>"+" in your HTML5 Code!");
+	</script>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+<title> Greetings!</title>
+</head>
+<body>
+	<h2>Welcome</h2>
+	<script>
+	var firstname=prompt("Hello! Please enter your first name:");
+	var x=firstname.length
+	alert("Hello "+firstname+".  "+
+		"Your name is "+x+" characters long.");
+	</script>
+	</body>
+</html>
